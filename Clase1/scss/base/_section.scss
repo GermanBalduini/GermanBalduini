@@ -56,17 +56,49 @@
     }
 
      /*********** Contacto ***********/
- .contenedor_mapa{
-    @include flex (row, center, baseline)
- }
-
-  
-  /********* COMIDAS ********/
-   .menu_toya{
-    padding: 20px;
+.section_contacto{
     background-color: $alternative;
-   }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5% 35%;
 
+    h3{
+        padding: 5px;
+        color: $text-color;
+    }
+}
+
+//  COMIDAS
+
+.section_comidas{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: $text-color;
+    text-align: center;
+    padding: 5% 15%;
+  
+
+    .box{
+        padding:auto;
+        margin: auto;
+        overflow: auto;
+    }
+
+    .box1{
+        padding:auto;
+        margin: auto;
+        overflow: auto;
+    }
+    .box2{
+        padding:auto;
+        margin: auto;
+        overflow: auto;
+    }
+
+}
+    
 //    QUIENES SOMOS
 
 .section_qs{
